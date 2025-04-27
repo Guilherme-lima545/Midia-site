@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages --dotfiles -d dist",
+    "deploy": "npm run build && cd dist && echo \"URL: https://Guilherme-lima545.github.io/Midia-site/\" > CNAME && git init && git checkout -b gh-pages && git add . && git commit -m \"Deploy\" && git remote add origin https://github.com/Guilherme-lima545/Midia-site.git && git push -f origin gh-pages",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",

@@ -37,5 +37,27 @@
 
 .desc {
   font-size: 24px;
+}
 
+@media (max-width: 1440px) {
+  .container {
+    margin-top: 194px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .button button {
+    width: 241px;
+    height: 241px;
+    margin-left: 40%;
+  }
+
+  .container {
+    margin-top: 94px;;
+  }
+
+  .desc {
+    width: 80%;
+    margin-left: 10%;
+  }
 }
