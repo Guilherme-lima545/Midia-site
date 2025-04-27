@@ -1,0 +1,34 @@
+.btn {
+  max-width: 100%; 
+}
+
+.btn button {
+  position: absolute;
+  left: 48.6%;
+  top: 85%;
+  background: none;
+  border: none;
+  font-size: 59px;
+  font-family: "Istok Web";
+  color: white;
+  cursor: pointer;
+  padding: 0;
+}
+
+.prev {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+
+.prev button {
+  background: none;
+  border: none;
+  font-size: 59px;
+  font-family: "Istok Web";
+  color: white;
+  cursor: pointer;
+}
+

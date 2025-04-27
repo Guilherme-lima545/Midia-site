@@ -1,0 +1,104 @@
+.content {
+  width: 30%;
+  justify-items: center;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.content ul {
+  padding: 0;
+  text-align: center;
+}
+
+
+.content ul p {
+  text-align: center;
+}
+
+
+.select {
+ display: grid;
+ float: right;
+ grid-template-columns: repeat(3,1fr);
+ margin-top: -100px;
+ margin-right: 82px;
+ gap: 50px;
+}
+
+.lideres {
+  display: flex;
+  float: right;
+  justify-content: space-between;
+  margin-top: -200px;
+  margin-right: 82px;
+  gap: 191px;
+}
+
+.lideres button {
+  width: 90px;
+  height: 88px;
+  background-size: cover;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.select button {
+  width: 90px;
+  height: 88px;
+  background-size: cover;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.know {
+  width: 272px;
+  height: 76px;
+  background-color: #F41818;
+  font-family: "Istok Web";
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 24px;
+  border: none;
+}
+
+.victor {
+  background-image: url("../img/portrait/Victor.jpg");
+}
+
+.thiago {
+  background-image: url("../img/portrait/Thiago.jpg");
+}
+
+.guilherme {
+  background-image: url("../img/portrait/Guilherme.jpg");
+}
+
+.alice {
+  background-image: url("../img/portrait/Alice.jpg");
+}
+
+.laura {
+  background-image: url("../img/portrait/Laura.jpg");
+}
+
+.rebeca {
+  background-image: url("../img/portrait/Rebeca.png");
+}
+
+.jhonny {
+  background-image: url("../img/portrait/Jhonny.png");
+}
+
+.henrique {
+  background-image: url("../img/portrait/2c47d5dd5b532f83bb55c4cd6f5bd1ef.jpg");
+}
+
+.miguel {
+  background-image: url("../img/portrait/2c47d5dd5b532f83bb55c4cd6f5bd1ef.jpg");
+}

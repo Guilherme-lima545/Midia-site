@@ -1,0 +1,70 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: "Istok Web";
+  margin-top: 127px;
+}
+
+
+
+.logo img {
+  width: 309px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+  transform: rotate(-9.43deg);
+  filter: drop-shadow(red 2px 2px 10px);
+}
+
+.logo img:hover {
+  animation: logo 5s ease-in infinite;
+  cursor: pointer;
+}
+
+.text {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1%;
+  margin-left: 14%;
+}
+
+.text h1 {
+  font-weight: bold;
+  text-shadow: red;
+}
+
+.text h1:hover {
+animation: texth1 forwards;
+}
+
+
+/* ANIMATION */ 
+
+@keyframes texth1 {
+  0% {
+    text-shadow: none ;
+  }
+  100% {
+    text-shadow: red 2px 2px 10px ;
+  }
+}
+
+
+@keyframes logo {
+  0% {
+    transform: rotate(-9.43deg);
+  }
+  50% {
+    transform: rotate(9.43deg);
+  }
+  100% {
+    transform: rotate(-9.43deg)
+  }
+}
+

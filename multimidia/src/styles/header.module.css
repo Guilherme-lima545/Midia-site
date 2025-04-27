@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.texthe {
+  width: 100%;
+  font-weight: bold;
+}
+
+.texthe p:hover { 
+  color: red;
+  animation: hoverAnimation 0.5s ease-in forwards;
+  
+}
+
+ul li {
+  display: inline-block;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.soon img { 
+  width: 100px;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-top: 1%;
+}
+
+
+/* ANIMATION */ 
+
+@keyframes hoverAnimation {
+  0% {
+    width: 0%;
+    border-bottom: 2px solid red;
+  }
+  100% {
+    width: 100%;
+    border-bottom: 2px solid red;
+  }
+}

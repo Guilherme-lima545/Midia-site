@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 294px;
+  gap: 40px;
+}
+
+
+.button button {
+  width: 341px;
+  height: 341px;
+  border-radius: 50%;
+  outline: none;
+}
+
+
+.text {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  font-family: "Istok Web";
+}
+
+
+.name {
+  font-size: 40px;
+  margin: 0;
+  text-shadow: red 0px 0px 10px ;
+}
+
+.func {
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: red 0px 0px 5px ;
+}
+
+.desc {
+  font-size: 24px;
+
+}

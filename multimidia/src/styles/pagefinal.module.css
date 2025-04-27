@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3%;
+  padding-bottom: 178px;
+}
+
+.textone {
+  text-align: center;
+  font-family: "Istok Web";
+  text-shadow: red 0px 0px 3px ;
+  font-size: 20px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 95px;
+  
+}
+
+
+.social img {
+width: 115px;
+height: 115px;
+cursor: pointer;
+}
+
+.textdesc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 45px;
+}
+
+
+
