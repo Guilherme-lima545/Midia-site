@@ -103,26 +103,3 @@
   background-image: url("../img/portrait/2c47d5dd5b532f83bb55c4cd6f5bd1ef.jpg");
 }
 
-@media(max-width: 1024px) {
-  .select {
-    margin-top: -150px;
-    margin-right: 82px;
-  }
-
-  .lideres {
-    margin-top: -250px;
-    margin-right: 72px;
-    gap: 185px;
-  }
-
-  .lideres button {
-    width: 80px;
-    height: 78px;
-  }
-
-  .select button {
-    width: 80px;
-    height: 78px;
-  }
-
-}

@@ -68,9 +68,4 @@ animation: texth1 forwards;
   }
 }
 
-@media (max-width: 1024px) {
-  .container {
-    margin-top: 80px;
-  }
-}
 
