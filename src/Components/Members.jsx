@@ -1,6 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import styles from '../styles/members.module.css';
 import { useNavigate } from 'react-router-dom';
+import Guilherme from '../img/portrait/Guilherme.jpg'
+import alice from '../img/portrait/Alice.jpg'
+import Laura from '../img/portrait/Laura.jpg'
+import Victor from '../img/portrait/Victor.jpg'
+import Thiago from '../img/portrait/Thiago.jpg'
+import noprofile from '../img/portrait/2c47d5dd5b532f83bb55c4cd6f5bd1ef.jpg'
 
 const Members = () => {
   const allMembers = [
@@ -56,12 +62,12 @@ const Members = () => {
   ];
 
   const images = [
-    'url(/src/img/portrait/Guilherme.jpg)',
-    'url(/src/img/portrait/Alice.jpg)',
-    'url(/src/img/portrait/Laura.jpg)',
-    'url(/src/img/portrait/Victor.jpg)',
-    'url(/src/img/portrait/Thiago.jpg)',
-    'url(/src/img/portrait/2c47d5dd5b532f83bb55c4cd6f5bd1ef.jpg)'
+    `url(${Guilherme})`,
+    `url(${alice})`,
+    `url(${Laura})`,
+    `url(${Victor})`,
+    `url(${Thiago})`,
+    `url(${noprofile})`
   ];
 
   const [members, SetMembers] = useState([]);
