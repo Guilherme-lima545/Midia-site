@@ -1,5 +1,5 @@
 import './app.css';
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import SlideButton from './Components/SlideButton';
 import Header from './Components/header';
@@ -8,10 +8,16 @@ import SlideShow from './Components/Slideshow';
 import PrevSlidebutton from './Components/PrevSlidebutton';
 import Footer from './Components/Footer';
 import Memberdescripition from './Components/Memberdescripition';
+import { useEffect } from 'react';
 
 function Content() {
   const index = useSelector((state) => state.slide.currentIndex);
   const location = useLocation();
+  const navigate = useNavigate()
+
+  useEffect(() => {
+    navigate('/')
+  }, [])
 
   const hidebuttons =
     location.pathname === '/membro' || location.pathname === '/*';
