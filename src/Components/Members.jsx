@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from '../styles/members.module.css';
 import { useNavigate } from 'react-router-dom';
+import guilherme from '../img/portrait/Guilherme.jpg'
 
 const Members = () => {
   const allMembers = [
@@ -56,12 +57,12 @@ const Members = () => {
   ];
 
   const images = [
-    'url(/src/img/portrait/Guilherme.jpg)',
-    'url(/src/img/portrait/Alice.jpg)',
-    'url(/src/img/portrait/Laura.jpg)',
-    'url(/src/img/portrait/Victor.jpg)',
-    'url(/src/img/portrait/Thiago.jpg)',
-    'url(/src/img/portrait/2c47d5dd5b532f83bb55c4cd6f5bd1ef.jpg)'
+    'url(/Midia-site/assets/Guilherme.jpg)',
+    'url(/Midia-site/assets/Alice.jpg)',
+    'url(/Midia-site/assets/Laura.jpg)',
+    'url(/Midia-site/assets/Victor.jpg)',
+    'url(/Midia-site/assets/Thiago.jpg)',
+    'url(/Midia-site/assets/2c47d5dd5b532f83bb55c4cd6f5bd1ef.jpg)'
   ];
 
   const [members, SetMembers] = useState([]);
