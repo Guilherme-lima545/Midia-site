@@ -20,7 +20,7 @@ function Content() {
 
   useEffect(() => {
     navigate('/')
-  })
+  }, [])
 
   return (
     <>
