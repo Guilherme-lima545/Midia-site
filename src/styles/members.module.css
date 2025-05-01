@@ -103,3 +103,106 @@
   background-image: url("../img/portrait/2c47d5dd5b532f83bb55c4cd6f5bd1ef.jpg");
 }
 
+@media(max-width: 1024px) {
+  .select {
+    margin-top: -150px;
+    margin-right: 82px;
+  }
+
+  .lideres {
+    margin-top: -250px;
+    margin-right: 72px;
+    gap: 185px;
+  }
+
+  .lideres button {
+    width: 80px;
+    height: 78px;
+  }
+
+  .select button {
+    width: 80px;
+    height: 78px;
+  }
+
+  .content  {
+    width: 40%;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  .lideres {
+    margin-right: 15px;
+    gap: 178px
+  }
+
+  .select  {
+    margin-right: 25px;
+  }
+
+  .select button {
+    width: 68px;
+    height: 66px;
+  }
+
+  .lideres button {
+    width: 68px;
+    height: 66px;
+  }
+}
+
+
+@media (max-width: 428px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content  {
+    width: 90%;
+    margin-top: 0;
+  }
+
+  .select {
+    margin: 0;
+    float: none;
+    gap: 15px;
+    display: flex;
+    padding: 5%;
+  }
+
+  .lideres {
+    margin: 0;
+    gap:  0;
+    float: none;
+    justify-content: center;
+    padding-top: 5%;
+  }
+
+  .know {
+    width: 122px;
+    height: 46px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .select {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .select button {
+    width: 48px;
+    height: 48px;
+  }
+
+  .lideres button {
+    width: 48px;
+    height: 48px;
+  }
+}

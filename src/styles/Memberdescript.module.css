@@ -38,3 +38,81 @@
 .desc {
   font-size: 24px;
 }
+
+@media (max-width: 1440px) {
+  .container {
+    margin-top: 194px;
+  }
+}
+
+@media (max-width: 1024px) {
+  
+  .button {
+  width: 100%;
+  }
+
+  .button button {
+    width: 241px;
+    height: 241px;
+    margin-left: 40%;
+  }
+
+  .container {
+    margin-top: 94px;;
+  }
+
+  .desc {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .button {
+    width: 50%;
+  }
+
+  .text {
+    gap: 0;
+  }
+
+  .desc {
+    width: 80%;
+    font-size: 20px;
+    margin-top: 0;
+  }
+
+  .func {
+    margin: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button button {
+    width: 159px;
+    height: 152px;
+    margin: 0;
+  }
+
+  .desc {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    margin-top: 25px;
+  }
+}

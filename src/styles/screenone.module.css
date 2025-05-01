@@ -59,3 +59,45 @@
   }
 }
 
+@media(max-width: 1024px) {
+  .container {
+    margin-top: 1%;
+  }
+
+  .assemblelogo img {
+    width: 213px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .container { 
+   display: flex;
+   flex-direction: column; 
+  }
+
+  .assemblelogo img {
+    width: 159px;
+  }
+
+  .text {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .text p {
+    font-size: 15px;
+  }
+
+  .assemblelogo img {
+    width: 132px;
+  }
+}
+
+@media (max-width: 320px) {
+  .text p {
+    font-size: 17px;
+  }
+
+}

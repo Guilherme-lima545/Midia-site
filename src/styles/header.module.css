@@ -40,3 +40,50 @@ ul li {
     border-bottom: 2px solid red;
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    font-size: 20px;
+  }
+
+  .container ul {
+    text-align:justify;
+  }
+
+  ul li {
+    padding-left: 90px;
+  }
+
+  .soon {
+    margin-left: 50px;
+  }
+
+}
+
+@media (max-width: 425px) {
+  ul li {
+    padding-left: 20px;
+  }
+
+  .soon {
+    margin-left: 20px;
+  }
+}
+
+
+@media (max-width: 375px) {
+ ul li {
+  padding-left: 10px;
+ }
+
+ .soon {
+  margin-left: 10px;
+}
+}
+
+@media (max-width: 320px) {
+  ul li {
+   font-size: 15px;
+  }
+
+ }
