@@ -32,3 +32,8 @@
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .btn button {
+    position: relative;
+  }
+}

@@ -76,10 +76,10 @@ const Members = () => {
 
   useEffect(() => {
     selecname(6);
-    document.body.style.backgroundImage = `linear-gradient(to right, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 100%), ${images[3]}`;
-    document.body.style.backgroundSize = '100vh';
-    document.body.style.backgroundRepeat = 'no-repeat';
-    document.body.style.backgroundPosition = 'top right';
+    document.body.style.backgroundImage = `linear-gradient(to right, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 100%), ${images[3]}`; 
+    document.body.style.backgroundSize = "100vh";
+    document.body.style.backgroundRepeat = "no-repeat";
+    document.body.style.backgroundPosition = "top right";
   }, []);
 
   const selecname = (id) => {
@@ -90,9 +90,9 @@ const Members = () => {
   const changeimage = (index) => {
     setIndexImg(index);
     document.body.style.backgroundImage = `linear-gradient(to right, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 100%), ${images[index]}`;
-    document.body.style.backgroundSize = '100vh';
-    document.body.style.backgroundRepeat = 'no-repeat';
-    document.body.style.backgroundPosition = 'top right';
+    document.body.style.backgroundSize = "100vh"
+    document.body.style.backgroundRepeat = "no-repeat";
+    document.body.style.backgroundPosition = "top right";
   };
 
   function buttonkhow() {

@@ -58,14 +58,3 @@
       transform: translateY(-20px);
   }
 }
-
-
-@media(max-width: 1024px) {
-  .container {
-    margin-top: 1%;
-  }
-
-  .assemblelogo img {
-    width: 213px;
-  }
-}

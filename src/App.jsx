@@ -13,14 +13,13 @@ import { useEffect } from 'react';
 function Content() {
   const index = useSelector((state) => state.slide.currentIndex);
   const location = useLocation();
-  const navigate = useNavigate()
+
+  const hidebuttons =
+    location.pathname === '/membro' || location.pathname === '/*';
 
   useEffect(() => {
     navigate('/')
   }, [])
-
-  const hidebuttons =
-    location.pathname === '/membro' || location.pathname === '/*';
 
   return (
     <>
